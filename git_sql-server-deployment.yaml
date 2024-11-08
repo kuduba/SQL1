@@ -29,7 +29,7 @@ kind: Deployment
 metadata:
   name: sql-server-deployment
 spec:
-  replicas: 1  # Number of replicas increased to 2
+  replicas: 4  # Number of replicas increased to 2
   selector:
     matchLabels:
       app: sql-server
